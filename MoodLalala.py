@@ -17,7 +17,7 @@ def main():
     try:
         # Read the files in Pandas
         books_df = pd.read_csv("books_cleaned.csv")
-        movies_df = pd.read_csv("movies_metadata.csv", low_memory=False)
+        movies_df = pd.read_csv("movies_metadata_reduced.csv", low_memory=False)
 
         # Cleaning and Preparing the Data
         # Limiting to 5000 rows
